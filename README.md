@@ -1,40 +1,48 @@
 # Basic Break Down
 
-This project was created to give a base starting point for [React/Redux/SASS].
+This project was created to give a base starting point for `React/Redux/Sass`.
+
 It will create a functioning boiler plate version to start off with.
 
 ## How to use the template
 
 1. Get into the directory you want to store your project
-   **Note: Replace "projectname" with the name of your project**
+
+**Note: Replace "projectname" with the name of your project**
+
 2. Run this command `npx create-react-app projectname --template jsx-sass`
 
-### Scripts that are available
+## Scripts that are available
 
-## `npm run start`
+### `npm run start`
 
 Runs the app in the development mode.\
+
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
+
 You will also see any lint errors in the console.
 
-## `npm run build`
+### `npm run build`
 
 Builds the app for production to the `build` folder.\
+
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.\
+
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## `npm run test`
+### `npm run test`
 
 Launches the test runner in the interactive watch mode.\
+
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## `npm run eject`
+### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
@@ -44,7 +52,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## `npm run watch:sass`
+### `npm run watch:sass`
 
 **Note: This command will run in your terminal until you cancel it.**
 
@@ -52,4 +60,4 @@ This command sits in your terminal watching for any changes in any SCSS file and
 local css file in /src
 
 Takes all the imports from your main.scss file and converts it to native css
-["watch:sass": "node-sass src/sass/main.scss src/App.css -w"]
+`"watch:sass":"node-sasssrc/sass/main.scsssrc/App.css-w"`
