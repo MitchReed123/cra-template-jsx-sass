@@ -1,0 +1,35 @@
+{
+  "package": {
+    "dependencies": {
+      "@ant-design/icons": "^4.4.0",
+      "@material-ui/core": "^4.11.3",
+      "@material-ui/icons": "^4.11.2",
+      "@testing-library/jest-dom": "^4.2.4",
+      "@testing-library/react": "^9.3.2",
+      "@testing-library/user-event": "^7.1.2",
+      "react": "^16.13.1",
+      "react-dom": "^16.13.1",
+      "react-scripts": "3.4.1",
+      "node-sass": "^4.14.1",
+      "antd": "^4.12.0",
+      "react-router-dom": "^5.2.0",
+      "autoprefixer": "^10.2.4",
+      "concat": "^1.0.3",
+      "npm-run-all": "^4.1.5",
+      "postcss": "^8.1.0",
+      "postcss-cli": "^8.3.1",
+      "redux": "^4.0.5",
+      "react-redux": "^7.2.2",
+      "redux-logger": "^3.0.6",
+      "redux-persist": "^6.0.0",
+      "reselect": "^4.0.0"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject",
+      "watch:sass": "node-sass src/sass/main.scss src/App.css -w"
+    }
+  }
+}
